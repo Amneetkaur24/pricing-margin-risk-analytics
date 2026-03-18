@@ -1,5 +1,7 @@
 # Pricing Margin Risk Analytics
 
+<img width="874" height="429" alt="Screenshot 2026-03-17 185629" src="https://github.com/user-attachments/assets/8de939b7-f22b-406a-b4d0-a0bc80894f83" />
+<img width="854" height="315" alt="Screenshot 2026-03-17 185702" src="https://github.com/user-attachments/assets/02e1f670-d610-41de-bb1b-3e5c87c14a05" />
 
 ## Objective
 To enable leadership to evaluate discount strategies while proactively managing margin risk.
@@ -38,11 +40,6 @@ Which discount levels maximize revenue without increasing exposure to margin ris
 • Medium Risk: **426 orders**
 • High Risk: **32 orders**
 
-
-## Dashboard Preview
-<img width="874" height="429" alt="Screenshot 2026-03-17 185629" src="https://github.com/user-attachments/assets/8de939b7-f22b-406a-b4d0-a0bc80894f83" />
-<img width="854" height="315" alt="Screenshot 2026-03-17 185702" src="https://github.com/user-attachments/assets/02e1f670-d610-41de-bb1b-3e5c87c14a05" />
-
 ## Key Insight
 
 • Medium discount levels generate the best balance between revenue growth and margin stability.
@@ -58,13 +55,24 @@ This dashboard enables leadership teams to evaluate pricing strategies while con
 By identifying discount levels that drive revenue without significantly increasing high-risk orders, the analysis helps support data-driven pricing decisions and protects overall profitability.
 
 ## Structure
-pricing-margin-risk-analytics
+```
+pricing-strategy-margin-risk-analytics-dashboard
+│
+├── dashboard
+│   └── Financial_sales_model.xlsm
+│
+├── dashboard_demo_video
+│   └── Excel_margin_risk_dashboard.mp4
 │
 ├── data
-├── dashboard
-│   └── margin_dashboard.xlsm
+│   └── Financial_sales_model.xlsm
+│
 ├── images
-│   └── dashboard_preview.png
-├── insights.md
-└── README.md
+│   ├── dashboard_02.png
+│   └── dashboard_overview.png
+│
+├── README.md
+└── insights.md
+
+```
 ⚠️ Note: This file contains macros. Please enable macros to experience full interactivity.
